@@ -10,6 +10,9 @@ namespace Task1
     {
         static void Main(string[] args)
         {
+            View view = new View();
+            view.Print();
+
 
             Console.ReadKey();
         }
